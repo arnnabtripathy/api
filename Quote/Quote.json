@@ -1,0 +1,48 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Swagger Test API",
+    "version": "3.0.0",
+    "title": "Quote",
+    "contact": {
+      "email": "arnnab.tripathy@tcs.com"
+    }
+  },
+  "host": "arnnabtripathy-test.apigee.net",
+  "schemes": [
+    "http"
+  ],
+  "basePath": "/Quote",
+  "paths": {
+    "/retrievequote": {
+      "get": {
+        "operationId": "GET /retrievequote",
+        "summary": "",
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        }
+      }
+    },
+    "/retrievequote/{id}": {
+      "get": {
+        "operationId": "GET /retrievequote/{id}",
+        "summary": "",
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  }
+}

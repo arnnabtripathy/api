@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><APIProxy name="Quote" revision="3">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1460710596340</CreatedAt>
+    <CreatedBy>arnnab.tripathy@tcs.com</CreatedBy>
+    <Description>Swagger Test API</Description>
+    <DisplayName>Quote</DisplayName>
+    <LastModifiedAt>1460710783370</LastModifiedAt>
+    <LastModifiedBy>arnnab.tripathy@tcs.com</LastModifiedBy>
+    <Policies>
+        <Policy>Assign-Message-1</Policy>
+        <Policy>apiquota</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
