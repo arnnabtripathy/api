@@ -85,9 +85,15 @@
                     <execution>
                         <id>deploy-bundle</id>
                         <phase>install</phase>
+<<<<<<< HEAD
                       <goals>
                             <goal>deploy</goal>
                         </goals>  
+=======
+                      <!-- <goals>
+                            <goal>deploy</goal>
+                        </goals>   -->
+>>>>>>> d9ece54e22af79042095b4470d4f772296da7a61
                     </execution> 
                 </executions>
             </plugin>

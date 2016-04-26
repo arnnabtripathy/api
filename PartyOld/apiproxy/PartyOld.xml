@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<APIProxy revison="1" name="PartyOld">
+  <CreatedAt>1461657137</CreatedAt>
+  <Description>Swagger test</Description>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
